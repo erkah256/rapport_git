@@ -2,7 +2,7 @@
 
 ## Clonage du dépôt distant
 
-On clone le dépôt distant avec ses deux (fichiers doc.txt et readme.md) dans le répertoire local, et on vérifie que tout est correct.
+On clone le dépôt distant avec ses deux ("fichiers doc.txt" et "readme.md") dans le répertoire local, et on vérifie que tout est correct.
 ```bash
 Rudy@Hermes MINGW64 /d/masterCCI/Toto
 $ git clone https://github.com/erkah256/repdistant
@@ -40,7 +40,7 @@ $ git checkout b1
 Switched to branch 'b1'
 ```
 
-On réalise trois modifications sucessives : ajout de f1.txt, de f2.txt et suppression de de doct.txt, chacune donnant lieu à un comit.
+On réalise trois modifications sucessives : ajout de "f1.txt", de "f2.txt" et suppression de "doct.txt", chacune donnant lieu à un comit.
 ```bash
 Rudy@Hermes MINGW64 /d/masterCCI/Toto/repdistant (b1)
 $ echo "Premier fichier" >> f1.txt
@@ -105,9 +105,9 @@ Fast-forward
 ## Envoi de la branche b1 sur le serveur
 
 ![](figures/branche_b1.png)
-La branche b1 est alors envoyée vers le dépôt distant. On voit bien sur la figure ci-dessus que doc.txt a bien été suprrimée alors que f1.txt et f2.txt ont été ajoutées.
+La branche b1 est alors envoyée vers le dépôt distant. On voit bien sur la figure ci-dessus que "doc.txt" a été suprrimé alors que "f1.txt" et "f2.txt" ont été ajoutée.
 
-La figure ci-dessus montre qu'elleest bien visible sur le serveur.
+La figure ci-dessus montre que cette branche bien visible sur le serveur.
 ```bash
 Rudy@Hermes MINGW64 /d/masterCCI/Toto/repdistant (master)
 $ git push --set-upstream origin b1
@@ -152,7 +152,7 @@ Rudy@Hermes MINGW64 /d/masterCCI/Toto/repdistant ((48b9a9a...))
 $ git checkout b2
 Switched to branch 'b2'
 ```
-On réalise deux commits correspondant à l'ajout des fichiers bonjour.txt et bye.txt.
+On réalise deux commits correspondant à l'ajout des fichiers "bonjour.txt" et "bye.txt".
 ```bash
 Rudy@Hermes MINGW64 /d/masterCCI/Toto/repdistant (b2)
 $ echo "Bonjour tout le monde, ça va" >> bonjour.txt
@@ -250,12 +250,12 @@ $ git log --graph --oneline --decorate
 
 ![](figures/gitk_arbre.png)
 
-L'outil graphique gitk permet d'obtenir une vue plus "ergonomique" de ce graphe. On voit ainsi que dans la branche b2, on a les modifications suivantes : ajouts de f1 et f2, bonjour.txt et bye.txt., mais pas la suppression de doc.txt.
+L'outil graphique gitk permet d'obtenir une vue plus "ergonomique" de ce graphe. On voit ainsi que dans la branche b2, on a les modifications suivantes : ajouts de "f1" et "f2", "bonjour.txt" et "bye.txt"., mais pas la suppression de "doc.txt".
 
 ## Envoi de la branche b2 sur le serveur puis suppression sur le dépôt local puis sur le dépôt distant.
 ![](figures/branche_b2.png)
 
-La branche b2 est envoyée sur le serveur. On peut constater que le résultat est conforme aux modificationsque l'on vient d'évoquer
+La branche b2 est envoyée sur le serveur. On peut constater que le résultat est conforme aux modifications que l'on vient d'évoquer.
 
 ```bash
 Rudy@Hermes MINGW64 /d/masterCCI/Toto/repdistant (b1)
@@ -275,7 +275,8 @@ To https://github.com/erkah256/repdistant
  * [new branch]      b2 -> b2
 Branch 'b2' set up to track remote branch 'b2' from 'origin'.
 ```
-Pour finir, on supprime la branche b2 du dépôt local, puis du dépôt distant
+Pour finir, on supprime la branche b2 du dépôt local, puis du dépôt distant.
+
 ```bash
 Rudy@Hermes MINGW64 /d/masterCCI/Toto/repdistant (b1)
 $ git branch -d b2
