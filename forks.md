@@ -74,7 +74,7 @@ To http://gogs.m2cci.sciences.univ-tours.fr/rudy.kajdan/DepotThomas_copie.git
 
 ![](figures/demande_pull_request.png)
 
-On fait un pull request (figure ci-dessus). Après acceptation, on constate que le dépôt d'origine et le dépôt forké se sont bien synchronisés. (figure ci-dessous)
+On fait un pull request (figure ci-dessus). Après acceptation, on constate que le dépôt d'origine et le dépôt forké se sont bien synchronisés (figure ci-dessous).
 
 ![](figures/apres_acceptation.png)
 
