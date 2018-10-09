@@ -6,9 +6,8 @@
 
 ![](figures/depot_forked.png)
 
-On commence par forker le dépôt public "DepotThomas" de Thomas. Le fork est alors nommé "DepotThomasCopie"
+On commence par forker le dépôt public "DepotThomas" de Thomas. On nomme "DepotThomasCopie" le fork puis on le clone dans un dépôt local.
 
-On clone ce nouveau dépôt dans un dépôt local
 ```bash
 Rudy@Hermes MINGW64 /d/masterCCI/Toto
 $ git clone http://gogs.m2cci.sciences.univ-tours.fr/rudy.kajdan/DepotThomas_copie.git
@@ -32,7 +31,7 @@ README.md
 ```
 ### Mise à jour du dépôt forké
 
-On ajoute alors un nouveau fichier nommé "rudy.txt" dans le dépôt forké.
+On ajoute ensuite un nouveau fichier nommé "rudy.txt" dans le dépôt forké.
 ```bash
 Rudy@Hermes MINGW64 /d/masterCCI/Toto/depotthomas_copie (master)
 $ echo "modifications de rudy" >> rudy.txt
@@ -78,6 +77,11 @@ To http://gogs.m2cci.sciences.univ-tours.fr/rudy.kajdan/DepotThomas_copie.git
 On fait un pull request (figure ci-dessus). Après acceptation, on constate que le dépôt d'origine et le dépôt forké se sont bien synchronisés. (figure ci-dessous)
 
 ![](figures/apres_acceptation.png)
+
+
+## Exerice 2
+
+
 
 
 
