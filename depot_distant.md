@@ -5,7 +5,7 @@
 ### Création d'un dépôt distant et récupération des données
 ![](figures/depot_distant_ini.jpg)
 
-On commence par créer un dépôt distant sur github. On ajoute ensuite les fichiers suivants : readme.md et doc.txt, comme l'atteste la figure ci-dessus.
+On commence par créer un dépôt distant sur github. On ajoute ensuite les fichiers suivants : "readme.md" et "doc.txt", comme l'atteste la figure ci-dessus.
 
 On clone avec la commande git clone ce dépôt dans le répertoire courant et l'on s'assure que les fichiers sont bien présents (commande ls).
 
@@ -36,7 +36,7 @@ nothing to commit, working tree clean
 
 ### Ajout de fichiers en local et envoi des modifications vers le répertoire distant
 
-On ajoute deux fichiers en local dans l'arbre de travail : bonjour.txt et liste.txt, puis on réalise un commit.
+On ajoute deux fichiers en local dans l'arbre de travail : "bonjour.txt" et "liste.txt", puis on réalise un commit.
 ```bash
 
 Rudy@Hermes MINGW64 /d/masterCCI/Toto/repdistant (master)
@@ -120,7 +120,7 @@ Your branch is up to date with 'origin/master'.
 
 nothing to commit, working tree clean
 ````
-On constate que l'on a bien récupéré le fichier readme.md. On ajoute alors un fichier, nommé "rudy.txt" pour que Thomas puisse le récupérer.
+On constate que l'on a bien récupéré le fichier readme.md. On ajoute alors un fichier, nommé "rudy.txt" que Thomas peut récupérer.
 ```bash
 Rudy@Hermes MINGW64 /d/masterCCI/Toto/DepotCollabo (master)
 $ git status
