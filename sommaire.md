@@ -1,5 +1,7 @@
 # Rapport tutoriel git
 
+Rudy KAJDAN
+
 1. [Dépôt local](depot_local.md)
 2. [Dépôt distant](depot_distant.md)
 3. [Branches](branches.md)
