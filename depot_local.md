@@ -2,7 +2,7 @@
 
 ## Initialisation d'un dépôt
 
-On commence par créer un répertoire Toto que l'on initialise comme un dépôt
+On commence par créer un répertoire Toto que l'on initialise comme un dépôt.
 ```bash
 Rudy@Hermes MINGW64 /d/masterCCI/Toto
 $ mkdir bob
@@ -15,6 +15,7 @@ $ git init
 Initialized empty Git repository in D:/masterCCI/Toto/bob/.git/
 ```
 ## Affichage de l'état du dépôt nouvellement créé
+
 On vérifie l'état du dépôt avec la commande git status.
 ```bash
 Rudy@Hermes MINGW64 /d/masterCCI/Toto/bob (master)
